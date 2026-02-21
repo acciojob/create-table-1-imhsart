@@ -6,7 +6,8 @@ function insert_Row() {
 	td1.innerText = 'New Cell1'
 	td2.innerText = 'New Cell2'
 	tr.append(td1,td2)
-	table.prepend(tr);
+	tbody.prepend(tr);
 }
 
 let table = document.getElementById('sampleTable')
+let tbody = table.tBodies[0]
